@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="game.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries:<span>0</span>
+        </div>
+    </div>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-icons="ct">
+            <div class="face front"></div> <!--Div of Question mark -->
+            <div class="face back">  <!-- Div of picture-->
+                <img src="images/cassette-tape.png" alt="cassette-tape">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="ct">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/cassette-tape.png" alt="cassette-tape">
+            </div>
+        </div>
+        <div class="game-block" data-icons="be">
+            <div class="face front"></div> 
+            <div class="face back"> 
+                <img src="images/bee.png" alt="bee">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="be">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/bee.png" alt="bee">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="cc">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/coffee-cup.png" alt="coffee-cup">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="cc">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/coffee-cup.png" alt="coffee-cup">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="co">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/cookies.png" alt="cookies">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="co">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/cookies.png" alt="cookies">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="gu">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/got-you.png" alt="got-you">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="gu">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/got-you.png" alt="got-you">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="ll">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/love-letter.png" alt="love-letter">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="ll">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/love-letter.png" alt="love-letter">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="lmb">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/love-message-mobile.png" alt="love-message-mobile">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="lmb">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/love-message-mobile.png" alt="love-message-mobile">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="lm">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/love-message.png" alt="love-message">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="lm">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/love-message.png" alt="love-message">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="st">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/stamp.png" alt="stamp">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="st">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/stamp.png" alt="stamp">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="vd">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/valentines-day.png" alt="valentines-day">
+            </div>  
+        </div>
+        <div class="game-block" data-icons="vd">
+            <div class="face front"></div> 
+            <div class="face back">  
+                <img src="images/valentines-day.png" alt="valentines-day">
+            </div>  
+        </div>
+    </div> 
+    
+    <audio id="success" src="sounds/success.mp3" alt="success-sound"></audio>
+    <audio id="failure" src="sounds/failure.mp3" alt="failure-sound"></audio>
+
+    <script src="game.js"></script>
+</body>
+</html>
